@@ -22,7 +22,24 @@ ros2 launch sdr sdr.launch.py
 ros2 run sensor_data_publisher fake_sensor.py
 ```
 
+Run for specific time
+Press CTRL+C to send Interrupt Signal
+
+Data Bag file should be saved in ~/sensor_logs folder
+
+To view the file, we can use foxglove web app or PlotJuggler 
+
+
 # Note
 * SDR is Sensor Data Recording Package
 * Sensor_Data_Publisher is used for producing mock sensor data to test the data recording package.
 
+
+# Further ToDos
+
+- Add Auto Start System Daemon Configuration file
+- Add Graceful Shutdown Signal Propagation method
+- Add Custom Yaml File for Easy Configurations.
+- Add pytest unit testing feature
+
+- Use Real Sensor Data may be from Android OS
