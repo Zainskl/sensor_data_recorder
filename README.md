@@ -4,10 +4,12 @@ This repository is a sample project for recording data from different ros2 nodes
 # Features
 - Configurable code
 - mcap format for foxglove web view (easy to change to sqlite3)
-- Record Either Specific topics via providing names or using --all flag
+- Record Either Specific topics via providing names or using `--all` flag
 
 # Requirements
-
+- ROS2 Humble or later
+- Ubuntu 22.04.x or later for latest ros2 distros
+- Python 3.10+
 
 # Usage
 1. Download src folder to your workspace or use the repository folder as ros2 workspace
